@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html ng-app='digest'>
+    <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>digest and apply</title>
+</head>
+<body>
+    <h1>DIGEST AND CYCLE</h1>
+    <div ng-controller='counter'>
+        <button ng-click="increment()">increment</button>
+        <div>
+            counter increment:{{counter}}
+        </div>
+    </div>
+</body>
+
+</html>
